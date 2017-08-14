@@ -14,7 +14,8 @@ $assertive:                       #ef473a !default;
 $royal:                           #886aea !default;
 $dark:                            #444 !default;
 */
-
+$my-bar-color: #f4d41f;
+$bar-stable-bg: $my-bar-color !default;
 // The path for our ionicons font files, relative to the built CSS in www/css
 $ionicons-font-path: "../lib/ionic/fonts" !default;
 
@@ -22,13 +23,9 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 @import "www/lib/ionic/scss/ionic";
 
 .platform-ios {
-    .bar-header {
-        background: red;
-    }
+    $bar-default-bg: red;
 }
 
 .platform-android {
-    .bar-header {
-        background: green;
-    }
+    $bar-default-bg: green;
 }
