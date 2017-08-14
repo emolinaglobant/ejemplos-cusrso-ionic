@@ -21,4 +21,14 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
 
-h1 { background: green; }
+.platform-ios {
+    .bar-header {
+        background: red;
+    }
+}
+
+.platform-android {
+    .bar-header {
+        background: green;
+    }
+}

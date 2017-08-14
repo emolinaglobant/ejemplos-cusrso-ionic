@@ -12,6 +12,7 @@ var paths = {
 };
 
 gulp.task('serve:before', ['default', 'watch']);
+gulp.task('run:before', ['default', 'watch']);
 gulp.task('default', ['sass']);
 
 gulp.task('sass', function(done) {

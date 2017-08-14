@@ -9815,5 +9815,8 @@ a.button {
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
 
-h1 {
+.platform-ios .bar-header {
+  background: red; }
+
+.platform-android .bar-header {
   background: green; }
